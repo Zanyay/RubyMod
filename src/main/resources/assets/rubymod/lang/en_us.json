@@ -2,5 +2,11 @@
   "item.rubymod.ruby": "Ruby",
   "item.rubymod.raw_ruby": "Raw Ruby",
 
+  "block.rubymod.ruby_block": "Block of Ruby",
+  "block.rubymod.ruby_ore": "Ruby Ore",
+  "block.rubymod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.rubymod.netherrack_ruby_ore": "Netherrack Ruby Ore",
+  "block.rubymod.endstone_ruby_ore": "Endstone Ruby Ore",
+
   "creativemodetab.ruby_tab": "Ruby Tab"
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "rubymod:block/netherrack_ruby_ore"
+  }
+}

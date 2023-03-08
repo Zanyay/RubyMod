@@ -1,6 +1,7 @@
 package com.zanyay.rubymod;
 
 import com.mojang.logging.LogUtils;
+import com.zanyay.rubymod.block.ModBlocks;
 import com.zanyay.rubymod.item.ModCreativeModeTabs;
 import com.zanyay.rubymod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -23,6 +24,7 @@ public class RubyMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -42,9 +44,25 @@ public class RubyMod {
             event.accept(ModItems.RAW_RUBY);
         }
 
+        if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.RUBY_BLOCK);
+        }
+
+        if(event.getTab() == CreativeModeTabs.NATURAL_BLOCKS){
+            event.accept(ModBlocks.RUBY_ORE);
+            event.accept(ModBlocks.DEEPSLATE_RUBY_ORE);
+            event.accept(ModBlocks.NETHERRACK_RUBY_ORE);
+            event.accept(ModBlocks.ENDSTONE_RUBY_ORE);
+        }
+
         if(event.getTab() == ModCreativeModeTabs.RUBY_TAB){
             event.accept(ModItems.RUBY);
             event.accept(ModItems.RAW_RUBY);
+            event.accept(ModBlocks.RUBY_BLOCK);
+            event.accept(ModBlocks.RUBY_ORE);
+            event.accept(ModBlocks.DEEPSLATE_RUBY_ORE);
+            event.accept(ModBlocks.NETHERRACK_RUBY_ORE);
+            event.accept(ModBlocks.ENDSTONE_RUBY_ORE);
         }
     }
 

@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": {"model":"rubymod:block/netherrack_ruby_ore"}
+  }
+}
