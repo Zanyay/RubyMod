@@ -1,6 +1,7 @@
 package com.zanyay.rubymod;
 
 import com.mojang.logging.LogUtils;
+import com.zanyay.rubymod.item.ModCreativeModeTabs;
 import com.zanyay.rubymod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -34,13 +35,14 @@ public class RubyMod {
 
     }
 
+    //yes
     private void addCreative(CreativeModeTabEvent.BuildContents event){
         if(event.getTab() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.RUBY);
             event.accept(ModItems.RAW_RUBY);
         }
 
-        if(event.getTab() == CreativeModeTabs.INGREDIENTS){
+        if(event.getTab() == ModCreativeModeTabs.RUBY_TAB){
             event.accept(ModItems.RUBY);
             event.accept(ModItems.RAW_RUBY);
         }
