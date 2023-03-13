@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "rubymod:deepslate_ruby_ore",
+    "rubymod:endstone_ruby_ore",
+    "rubymod:netherrack_ruby_ore"
+  ]
+}
