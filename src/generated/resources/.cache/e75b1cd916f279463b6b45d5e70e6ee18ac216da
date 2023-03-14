@@ -1,0 +1,16 @@
+// 1.19.3	2023-03-14T15:25:49.6761706	Block States: rubymod
+379546a383a6d71226b390168e5fe73f2dc061bf assets/rubymod/blockstates/deepslate_ruby_ore.json
+c95c9708b075616e59e5cfdb18afcc8d6e79b5ba assets/rubymod/blockstates/endstone_ruby_ore.json
+0812f01483d6b5a65d4fe8a226f95cd72d20e1b8 assets/rubymod/blockstates/netherrack_ruby_ore.json
+e7ca7b79ba1043e6f2917fb22557a4610be6d35c assets/rubymod/blockstates/ruby_block.json
+0a8e63052e7cf84f13d8e043ad4e0c88ec8b014e assets/rubymod/blockstates/ruby_ore.json
+59b010abefce0aaf871f9fb44df9cd30f95745fa assets/rubymod/models/block/deepslate_ruby_ore.json
+17aa53516e6e6dd8ad08e577f99cbdb6ff729580 assets/rubymod/models/block/endstone_ruby_ore.json
+f8e3346b35a245412b70f073ffeb13e480c3556a assets/rubymod/models/block/netherrack_ruby_ore.json
+b177feb4a114f07908ffdba83319873d5940ed98 assets/rubymod/models/block/ruby_block.json
+14c3d4dca166fd88f78a01821ce451514c1677e0 assets/rubymod/models/block/ruby_ore.json
+2cb341dcc45f8dee93ebf6e9499de7cb6aecd723 assets/rubymod/models/item/deepslate_ruby_ore.json
+7c89b5f3708809f787ffa731f297f88d585f863b assets/rubymod/models/item/endstone_ruby_ore.json
+3bf1cb072282d5f44c480b8c1e218b1a44587adb assets/rubymod/models/item/netherrack_ruby_ore.json
+0c2c205be8f5baf2ef473320fccaeca1c23c7718 assets/rubymod/models/item/ruby_block.json
+3fa7edffb6ee948db5055e1097a33d1ba210c880 assets/rubymod/models/item/ruby_ore.json

@@ -1,7 +1,8 @@
 {
-  "type": "minecraft:blasting",
-  "cookingtime": 125,
-  "experience": 1.25,
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
   "group": "ruby",
   "ingredient": {
     "item": "rubymod:raw_ruby"

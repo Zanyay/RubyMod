@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "rubymod:block/endstone_ruby_ore"
+    }
+  }
+}
